@@ -1,0 +1,81 @@
+@import url(http://fonts.googleapis.com/css?family=Merriweather:700);
+@import url(http://fonts.googleapis.com/css?family=Helvetica:700);
+@import url(http://fonts.googleapis.com/css?family=Gudea:400);
+
+
+#banner {
+    font-family: 'Merriweather', sans-serif;
+    font-size: 2em;
+    text-align: center;
+}
+
+.navbar {
+    font-family: 'Merriweather', sans-serif;
+    font-size: 1em;
+    list-style-type: none;
+    text-align: center;
+}
+
+.navlist {
+    display: inline;
+    padding-left: 1em;
+    padding-right: 1em;
+
+}
+
+#tempcontent {
+    padding: 3em;
+    text-align: center;
+    font-family: 'Times New Roman', serif;
+    font-style: normal;
+}
+
+
+#articletext{
+    text-align: justify;
+    margin: 0 auto;
+    font-family: 'Gudea', serif;
+    font-size: 1em;
+    margin-bottom: 100px;
+    margin-right: 200px;
+    margin-left: 200px;
+    color: grey20;
+}
+
+#articletitle{
+    color: grey20;
+    font-family: 'Gudea', serif;
+    font-weight: 600;
+    font-size: 2em;
+    margin-top: 100px;
+    margin-bottom: 2em;
+    margin-right: 200px;
+    margin-left: 200px;
+
+}
+
+.articleimage{
+    margin-top: 2em;
+    margin-bottom: 1em;
+    text-align:center;
+    display:block;
+    margin:auto;
+}
+
+.dropcap {
+    float: left;
+    font-family: 'Gudea', serif;
+    font-size: 2em;
+    font-weight: 800;
+    padding-right: 0.25em;
+    color: grey20;
+}
+
+.equation {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+
+}
