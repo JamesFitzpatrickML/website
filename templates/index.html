@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <title>Index</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript"
+      src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+  </head>
+
+  <body>
+    <div id="content">
+      <div id="page">
+	
+        <div id="splash">
+          <div id="banner">
+            <h1>James Fitzpatrick</h1>
+            <hr>
+          </div>
+          <div id="navigation">
+            <ul class="navbar">
+              <li class="navlist">Home</li>
+              <li class="navlist">Deep Nets</li>
+              <li class="navlist">Path Integrals</li>
+              <li class="navlist">Projects</li>
+              <li class="navlist">About</li>
+            </ul>
+            <hr>
+          </div>
+        </div>
+	
+        <div id="readable">
+          <div id="articletitle">
+            <p>The Path Integral: From Classical to Quantum Action</p>
+          </div>
+          <div id="articletext">
+            <p>
+              <span class="dropcap">In</span>1942, Richard Feynman submitted his manuscript for
+	      his doctoral thesis, and starting my own academic research adventure, it is
+	      a humbling exercise, pondering the profound and far-reaching consequences of his
+	      work. Taking inspiration from the (in)famous double-slit experience, and the
+	      canonical commutation relation, he reimagined the concept of the classical action
+	      principle, the lynchpin of Lagrangian mechanics, to include the quantum realm.
+	      <br> <br>
+	      In the classical interpretation of the dynamics of bodies, we use the principle of
+	      stationary action to help us determine their equations of motion. In a sense, we
+	      determine the trajectory that minimises some quantity that we call the "Action".
+	      We emphasise here the singularity of this trajectory, we assume that there is a
+	      unique, minimising trajectory. In Feynman's formulation, we operate with a
+	      conceptually different principle: bodies with dimensions putting them in the realm
+	      of quantum mechanics can take any one of an infinity of potential trajcectories,
+	      and each of these contribute, either negatively or positively, with a weighting
+	      related to the probability of that trajectory having been taken. In this way our
+	      action integral becomes an infinite-dimensional one and we are no longer concerned
+	      with the exact trajectory taken, but a quantity known as the transition amplitude,
+	      which can be seen as a proxy for the probability that some trajectory was indeed
+	      taken.
+	      <br> <br>
+	      In the following, I will attempt to motivate a somewhat approachable justification
+	      of this approach, and to demonstrate some of the interesting connections that we
+	      can draw between quantum mechanics and random processes. One of the most
+	      interesting results one ecnounters is the power of the Wick rotation, that is the
+	      transformation of the time dimension into an imaginary one, $t \rightarrow -it$,
+	      to transform the famous Shcroedinger equation to the diffusion equation. In the
+	      absence of a potential, we would have:
+            </p>
+            <br> 
+            <span class="equation">
+	      $$
+	      \frac{\partial}{\partial t} \psi (q, t) = \frac{\hbar^2}{2m} \nabla ^2 \psi (q,t)
+	      \rightarrow
+	      i \hbar \frac{\partial}{\partial t}\psi(q,t)=\frac{-\hbar^2}{2m}\nabla^2 \psi (q,t)
+	      $$
+            </span>
+          </div>
+        </div>
+	
+      </div>
+      <canvas class="left">
+      <canvas class="right">
+      <canvas class="top">
+      <canvas class="bottom">
+    </div>
+  </body>
+
+</html>
